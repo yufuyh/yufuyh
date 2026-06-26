@@ -239,6 +239,47 @@ img {
     color: var(--text-muted);
 }
 
+/* 合作伙伴链接 */
+.hero-partner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+}
+
+.partner-label {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.partner-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: rgba(245, 158, 11, 0.1);
+    border: 1px solid rgba(245, 158, 11, 0.25);
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #f59e0b;
+    transition: all 0.3s ease;
+}
+
+.partner-link:hover {
+    background: rgba(245, 158, 11, 0.2);
+    border-color: rgba(245, 158, 11, 0.4);
+    transform: translateY(-2px);
+}
+
+.partner-link svg {
+    fill: #f59e0b;
+    stroke: none;
+}
+
 /* Hero 图片 */
 .hero-image {
     position: relative;

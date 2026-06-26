@@ -1,0 +1,33 @@
+# robots.txt for 异环助手
+# Allow AI crawlers and standard search bots
+
+User-agent: *
+Allow: /
+
+# AI爬虫放行
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Crawl-delay (礼貌控制抓取频率)
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://yh.66gm.top/sitemap.xml
+
+# Disallow sensitive paths (if any)
+# Disallow: /admin/
