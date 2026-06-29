@@ -3,7 +3,7 @@
  */
 
 // 固定下载链接
-const DOWNLOAD_URL = 'https://foruda.gitee.com/attach_file/1782294492802435719/yufu-yihuanv1.0.1.exe?token=089942b7c9ca9be62a3e62ca731703ef&ts=1782468158&attname=YUFU-YIHUANv1.0.1.exe';
+const DOWNLOAD_URL = 'https://gitee.com/wangfuguiC/yufu-yihuan/releases/download/v1.0.1/YUFU-YIHUANv1.0.1.exe';
 
 // 滚动监听 - 导航高亮
 function initScrollSpy() {
