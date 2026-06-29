@@ -4,7 +4,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>https://yh.66gm.top/</loc>
-        <lastmod>2026-06-26</lastmod>
+        <lastmod>2026-06-29</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <xhtml:link rel="alternate" hreflang="zh-CN" href="https://yh.66gm.top/"/>
@@ -12,5 +12,47 @@
             <image:loc>https://yh.66gm.top/preview.png</image:loc>
             <image:title>异环助手软件界面预览</image:title>
         </image:image>
+    </url>
+    <url>
+        <loc>https://yh.66gm.top/features/fishing.html</loc>
+        <lastmod>2026-06-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://yh.66gm.top/features/music.html</loc>
+        <lastmod>2026-06-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://yh.66gm.top/features/shop.html</loc>
+        <lastmod>2026-06-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://yh.66gm.top/features/fight.html</loc>
+        <lastmod>2026-06-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://yh.66gm.top/guide/install.html</loc>
+        <lastmod>2026-06-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yh.66gm.top/guide/safety.html</loc>
+        <lastmod>2026-06-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yh.66gm.top/changelog/index.html</loc>
+        <lastmod>2026-06-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
     </url>
 </urlset>

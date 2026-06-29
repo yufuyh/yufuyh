@@ -1,10 +1,29 @@
 # robots.txt for 异环助手
-# Allow AI crawlers and standard search bots
+# Allow all standard search bots
 
 User-agent: *
 Allow: /
 
-# AI爬虫放行
+# 主要搜索引擎
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Sogou Pic Spider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+# AI爬虫放行 - 让 AI 搜索助手也能收录你
 User-agent: GPTBot
 Allow: /
 
@@ -23,11 +42,8 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-# Crawl-delay (礼貌控制抓取频率)
+# 礼貌控制抓取频率
 Crawl-delay: 1
 
 # Sitemap
 Sitemap: https://yh.66gm.top/sitemap.xml
-
-# Disallow sensitive paths (if any)
-# Disallow: /admin/
